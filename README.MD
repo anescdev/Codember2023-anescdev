@@ -5,3 +5,5 @@ Me gustaría usar este readme para compartir un poco de información si necesito
 # Retos
 ## Reto 1
 Este reto estuvo guay, lo hice de una forma pero al final no me gustó como lo hice entonces pensé: "Esto lo puedo hacer en una línea larguísima". Y eso hice.
+## Reto 2
+Este reto decidí meter algo de POO y también el patrón Builder.
