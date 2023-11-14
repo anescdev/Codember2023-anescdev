@@ -97,8 +97,8 @@ export class CompilerBuilder {
 			return new Compiler(this.#handlers);
 		}
 	}
-	// Se añaden los manejadores a sus respectivos carácteres.
-	const defaultCompiler = new CompilerBuilder()
+// Se añaden los manejadores a sus respectivos carácteres.
+const defaultCompiler = new CompilerBuilder()
 	.addCharHandler("#", {
 		handler: (actual) => actual + 1,
 		isConsumer: false,
@@ -116,4 +116,4 @@ export class CompilerBuilder {
 		isConsumer: true,
 	})
 	.build();
-	export default defaultCompiler;
+export default defaultCompiler;
